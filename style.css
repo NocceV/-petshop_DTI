@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    border: 0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Barra de Navegação */
+
+nav {
+    display: flex;
+    background: rgb(86,182,203);
+    height: 18vh;
+    border-bottom: 2px solid black;
+}
+
+
+.logo {
+    width: 225px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+

@@ -9,35 +9,46 @@ document.getElementById('formulario').addEventListener('submit',function(event){
     const qtdCaoPequeno = parseInt(document.getElementById('caesPequenos').value);
     const qtdCaoGrande = parseInt(document.getElementById('caesGrandes').value);
 
+    const diaSemanal = data.getDay();
     const petShops = [
 
         {
             nome : "Meu Canino Feliz",
             distanciaCanil : 2000,
             DogPequenoPreco : 20,
-            DogGrandePreco : 40
+            DogGrandePreco : 40,
+            DogPequenoFim : 24,
+            DogGrandeFim :  48
         },
 
         {
             nome : "Vai Rex",
             distanciaCanil : 1700,
             DogPequenoPreco : 15,
-            DogGrandePreco : 50
+            DogGrandePreco : 50,
+            DogPequenoFim : 20,
+            DogGrandeFim :  55
         },
 
         {
             nome : "ChowChawgas",
             distanciaCanil : 800,
             DogPequenoPreco : 30,
-            DogGrandePreco : 45
+            DogGrandePreco : 45,
+            DogPequenoFim : 30,
+            DogGrandeFim :  45
         }
 
 
     ];
       
-    function calcularValorBanho(qtdPequeno, qtdGrande, petShop) {
-
+    function calcularValorBanho(qtdPequeno, qtdGrande, petShop,dia) {
+        if(dia != 0 && dia != 6){
         return (qtdPequeno * petShop.DogPequenoPreco) + (qtdGrande * petShop.DogGrandePreco);
+        }
+        else {
+            return (qtdPequeno * petShop.DogPequenoFim) + (qtdGrande * petShop.DogGrandeFim);
+        }
         
     }
   
@@ -51,13 +62,13 @@ document.getElementById('formulario').addEventListener('submit',function(event){
         }
     }  
     
-    function acharMelhorShop(P,G,petShops){
+    function acharMelhorShop(P,G,petShops,dia){
    
         let melhorShop = petShops[0];       
          for(let i = 1 ;i < petShops.length;i++ ){
                       
-            const temp1 = calcularValorBanho(P,G,melhorShop);
-            const temp2 = calcularValorBanho(P,G,petShops[i]);
+            const temp1 = calcularValorBanho(P,G,melhorShop,dia);
+            const temp2 = calcularValorBanho(P,G,petShops[i],dia);
             
             if(temp2 < temp1){
                 melhorShop = petShops[i];
@@ -72,9 +83,11 @@ document.getElementById('formulario').addEventListener('submit',function(event){
        
     }
 
-    const melhorDeTodos = acharMelhorShop(qtdCaoPequeno,qtdCaoGrande,petShops);
-    const precoTotal = calcularValorBanho(qtdCaoPequeno,qtdCaoGrande,melhorDeTodos);
-    document.getElementById('escrita').textContent = melhorDeTodos.nome + " R$:"+ precoTotal;  
+    const melhorDeTodos = acharMelhorShop(qtdCaoPequeno,qtdCaoGrande,petShops,diaSemanal);
+    const precoTotal = calcularValorBanho(qtdCaoPequeno,qtdCaoGrande,melhorDeTodos,diaSemanal);
+
+    document.getElementById('escrita').textContent = melhorDeTodos.nome + " R$:"+ precoTotal; 
+     
 
 });
 

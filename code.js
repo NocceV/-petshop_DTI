@@ -91,7 +91,7 @@ document.getElementById('formulario').addEventListener('submit',function(event){
         document.getElementById('escrita').textContent = melhorDeTodos.nome + " R$:"+ precoTotal; 
     }
     else{
-        document.getElementById('escrita').textContent = "Parâmetros não aceitos"; 
+        document.getElementById('escrita').textContent = "Parâmetros não aceitos. Por favor, tente de novo."; 
     }
     
 });

@@ -8,7 +8,12 @@
 
 body{
     background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
 }
+
+
 
 /* Barra de Navegação */
 
@@ -32,19 +37,23 @@ nav {
     flex-wrap: wrap;
     flex-direction: column;
     display: flex;
-    height: 63vh;
+    height: 70vh;
     align-items: center;
-    
 }
+
+header, .menu {
+    flex: 1;  
+}
+
 
 .conteudo{
     background-color: rgb(212, 212, 212);
     border: 1px solid black;
     border-radius: 50px;
-    height: 60%;
+    height: 66%;
     width: 35%;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 6%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -61,7 +70,7 @@ nav {
 .inputs{
     width: 80%;
     height: 60%;
-    padding: 10px;
+    padding: 12px;
     text-align: right;
     background-color:  rgb(228, 228, 228);
     border-radius: 10px;
@@ -74,7 +83,6 @@ nav {
 .inputs li{
     margin-top: 0px;
     height: 60px;
-   
 }
 
 .inputs input{
@@ -108,7 +116,12 @@ nav {
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+    /*border: 1px solid red;*/
+    padding: 10px; 
+    padding-bottom: 0;
+    width: 100%;  
+    position: relative;  
 }
 
 .footer img {
@@ -197,7 +210,8 @@ nav {
     }
 
     .footer img{
-        width: 500px;
+        width: 300px;
+        margin-top: 5px;
     }
 
     .footer .centro{

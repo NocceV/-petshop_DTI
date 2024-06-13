@@ -38,10 +38,11 @@ nav {
     height: 70vh;
     align-items: center;
     border: 1px solid yellow;
+    
 }
 
 .conteudo{
-    background-color: rgba(185, 185, 185, 1);
+    background-color: rgb(212, 212, 212);
     border: 1px solid black;
     border-radius: 50px;
     height: 60%;
@@ -83,12 +84,12 @@ nav {
 .inputs input{
 
     
-    width: 300px;
+    width: 50%;
     padding: 8px; 
     border: 1px solid #000000; 
     border-radius: 4px; 
     text-align:left;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 .inputs button{
@@ -105,4 +106,83 @@ nav {
     border: 1px solid purple;
     width: 100%;   
 
+}
+
+
+/*Respondividade*/
+
+@media (min-width: 200px) and (max-width: 349px) {
+
+    nav {
+        height: 15vh;
+    }
+
+    .logo {
+        width: 190px;
+    }
+
+    
+
+}
+
+@media (min-width: 350px) and (max-width: 589px) {
+
+    nav {
+        height: 15vh;
+    }
+
+    .logo {
+        width: 190px;
+    }
+
+    .menu {
+        height: auto; 
+    }
+
+    .conteudo {
+        width: 80%; 
+    }
+
+    .inputs input {
+        width: 50%; 
+        margin-left: 2px; 
+    }
+
+    .inputs button {
+        width: 40%; 
+        margin-left: 0;  
+    }
+
+    .resultado {
+        width: 80%; 
+    }
+
+
+}
+
+
+@media (min-width: 590px) and (max-width: 1000px) {
+
+
+    .logo {
+
+        width: 205px;
+    }
+
+    
+    .conteudo {
+        width: 65%; 
+    }
+    .inputs input {
+        width: 55%; 
+    }
+
+    .inputs button {
+        width: 30%; 
+        margin-left: 5px; 
+    }
+
+    .resultado {
+        width: 70%; 
+    }
 }

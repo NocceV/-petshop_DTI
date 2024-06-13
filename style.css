@@ -75,7 +75,7 @@ nav {
 
 .inputs li{
     margin-top: 0px;
-    border: 1px solid greenyellow;
+   border: 1px solid greenyellow;
     height: 60px;
    
 }
@@ -103,6 +103,6 @@ nav {
 
 .resultado{
     border: 1px solid purple;
-    
+    width: 50%;   
 
 }

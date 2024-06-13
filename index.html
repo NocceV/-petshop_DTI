@@ -18,17 +18,21 @@
         <div class="conteudo">
             <h1 class="titulo">Encontrar PetShop</h1>
             <div class="inputs">
-                <ul>
-                    <li>Data: <input type="date" name="" id=""></li>
-                    <li>Cães Pequenos: <input type="text"></li>
-                    <li>Cães Grandes: <input type="text"></li>
-                </ul>
-                <button class="botao">OK</button>
+                <form action="" id="formulario">
+                    <ul>
+                        <li>Data: <input type="date" name="" id="data"></li>
+                        <li>Cães Pequenos: <input type="number" id="caesPequenos"></li>
+                        <li>Cães Grandes: <input type="number" id="caesGrandes"></li>
+                    </ul>
+                    <button class="botao" type="submit">OK</button>
+                </form>
             </div>
-            <div class="resultado">
+            <div class="resultado" id="resultado">
                 <p>Resultado da Busca:</p>
+                <p id="escrita"></p>
             </div>
         </div>
     </div>
+    <script src="code.js"></script>
 </body>
 </html>

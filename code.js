@@ -9,7 +9,8 @@ document.getElementById('formulario').addEventListener('submit',function(event){
     const qtdCaoPequeno = parseInt(document.getElementById('caesPequenos').value);
     const qtdCaoGrande = parseInt(document.getElementById('caesGrandes').value);
 
-    const diaSemanal = data.getDay();
+    const diaSemanal = data.getUTCDay();
+    
     const petShops = [
 
         {
@@ -87,7 +88,6 @@ document.getElementById('formulario').addEventListener('submit',function(event){
     const precoTotal = calcularValorBanho(qtdCaoPequeno,qtdCaoGrande,melhorDeTodos,diaSemanal);
 
     document.getElementById('escrita').textContent = melhorDeTodos.nome + " R$:"+ precoTotal; 
-     
-
+    
 });
 

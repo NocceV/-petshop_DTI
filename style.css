@@ -35,9 +35,9 @@ nav {
     flex-wrap: wrap;
     flex-direction: column;
     display: flex;
-    height: 70vh;
+    height: 63vh;
     align-items: center;
-    border: 1px solid yellow;
+   /* border: 1px solid yellow;*/
     
 }
 
@@ -48,7 +48,7 @@ nav {
     height: 60%;
     width: 35%;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 7%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -63,11 +63,13 @@ nav {
 
 /* Inputs */
 .inputs{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 80%;
     height: 60%;
     padding: 10px;
     text-align: right;
+    background-color:  rgb(228, 228, 228);
+    border-radius: 10px;
 }
 
 .inputs ul{
@@ -76,7 +78,7 @@ nav {
 
 .inputs li{
     margin-top: 0px;
-   border: 1px solid greenyellow;
+   /*border: 1px solid greenyellow;*/
     height: 60px;
    
 }
@@ -103,9 +105,35 @@ nav {
 /*Resultado da Busca*/
 
 .resultado{
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
     width: 100%;   
 
+}
+
+/*Rodape*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer img {
+    width: 10%;
+    height: auto;
+    padding-bottom: 0px;
+}
+
+.footer .esquerda {
+    align-self: flex-start;
+}
+
+.footer .centro {
+    align-self: center;
+}
+
+.footer .direita {
+    align-self: flex-end;
 }
 
 
@@ -121,7 +149,17 @@ nav {
         width: 190px;
     }
 
-    
+    .footer .direita{
+        display: none;
+    }
+
+    .footer .esquerda{
+        display: none;
+    }
+
+    .footer .centro{
+        display:  none;
+    }
 
 }
 
@@ -157,7 +195,24 @@ nav {
         width: 80%; 
     }
 
+    .footer .direita{
+        display: none;
+    }
 
+    .footer .esquerda{
+        display: flex;
+    }
+
+    .footer img{
+        width: 500px;
+    }
+
+    .footer .centro{
+        display:  none;
+    }
+
+
+    
 }
 
 
@@ -185,4 +240,21 @@ nav {
     .resultado {
         width: 70%; 
     }
+
+    
+    .footer .direita{
+        display: none;
+    }
+
+    .footer .esquerda{
+        display: none;
+    }
+
+    .footer .centro{
+        display:  none;
+    }
+    .footer img {
+        max-width: 15%;
+    }
+    
 }

@@ -10,7 +10,6 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-
 /* Barra de Navegação */
 
 nav {
@@ -20,7 +19,6 @@ nav {
     border-bottom: 2px solid black;
 }
 
-
 .logo {
     width: 225px;
     border: 2px solid black;
@@ -29,7 +27,6 @@ nav {
 
 /* Menu de Escolhas */
 
-
 .menu{
     background-color: white;
     flex-wrap: wrap;
@@ -37,7 +34,6 @@ nav {
     display: flex;
     height: 63vh;
     align-items: center;
-   /* border: 1px solid yellow;*/
     
 }
 
@@ -60,10 +56,9 @@ nav {
 }
 
 
-
 /* Inputs */
+
 .inputs{
-    /*border: 1px solid red;*/
     width: 80%;
     height: 60%;
     padding: 10px;
@@ -78,7 +73,6 @@ nav {
 
 .inputs li{
     margin-top: 0px;
-   /*border: 1px solid greenyellow;*/
     height: 60px;
    
 }
@@ -105,7 +99,6 @@ nav {
 /*Resultado da Busca*/
 
 .resultado{
-    /*border: 1px solid purple;*/
     width: 100%;   
 
 }
@@ -210,21 +203,16 @@ nav {
     .footer .centro{
         display:  none;
     }
-
-
-    
+  
 }
 
-
 @media (min-width: 590px) and (max-width: 1000px) {
-
 
     .logo {
 
         width: 205px;
     }
 
-    
     .conteudo {
         width: 65%; 
     }
@@ -240,7 +228,6 @@ nav {
     .resultado {
         width: 70%; 
     }
-
     
     .footer .direita{
         display: none;

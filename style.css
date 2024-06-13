@@ -54,6 +54,55 @@ nav {
     flex-direction: column;
 }
 
-.imputs{
+.titulo{
+    margin-bottom: 40px;
+}
+
+
+
+/* Inputs */
+.inputs{
     border: 1px solid red;
+    width: 80%;
+    height: 60%;
+    padding: 10px;
+    text-align: right;
+}
+
+.inputs ul{
+    list-style: none;
+}
+
+.inputs li{
+    margin-top: 0px;
+    border: 1px solid greenyellow;
+    height: 60px;
+   
+}
+
+.inputs input{
+
+    
+    width: 300px;
+    padding: 8px; 
+    border: 1px solid #000000; 
+    border-radius: 4px; 
+    text-align:left;
+    margin-left: 40px;
+}
+
+.inputs button{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(86,182,203);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/*Resultado da Busca*/
+
+.resultado{
+    border: 1px solid purple;
+    
+
 }

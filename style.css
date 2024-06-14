@@ -47,7 +47,6 @@ header, .menu {
     flex: 1;  
 }
 
-
 .conteudo{
     background-color: rgb(212, 212, 212);
     border: 1px solid black;
@@ -148,6 +147,7 @@ header, .menu {
 .footer .direita {
     align-self: flex-end;
 }
+
 
 
 /*Respondividade*/

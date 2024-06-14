@@ -1,7 +1,6 @@
 
 class PetShop{
 
-
     constructor(nome,distanciaCanil,precoPequeno,precoGrande,addWeekEndP,addWeekEndG){
 
         this.nome= nome;
@@ -97,7 +96,6 @@ document.getElementById('formulario').addEventListener('submit',function(event){
 
         document.getElementById('escrita').textContent = "Parâmetros não aceitos. Por favor, tente de novo."; 
     }
-
-    
+  
 
 });

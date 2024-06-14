@@ -37,7 +37,7 @@ Lista de condições assumidas para o desenvolvimento do projeto:
 
 ## 🤖 Decisões de projeto
 
-# **Front-end:**
+### **Front-end:**
 
 - Para o desenvolvimento front-end, foi decidido usar as tecnologias HTML e CSS, com responsividade.
     
@@ -48,7 +48,7 @@ Lista de condições assumidas para o desenvolvimento do projeto:
   ![Versão Final](./imagens-figma/versaoFinalFront.png)
 
 
-# **Back-end**:
+### **Back-end**:
 
 - Para o desenvolvimento do back-end foi escolhido usar a linguagem JavaScript.
 - Inicialmente foram utilizadas as ferramentas: StarUML e NotePad++ para o desenho do projeto.
@@ -81,5 +81,5 @@ Lista de condições assumidas para o desenvolvimento do projeto:
  ## 👾 Extra: 
 
  - Como diversão, também foi feito o mesmo sistema em C#. Para acessa-lo basta seguir o link
- -   ``
+ - `https://github.com/NocceV/ExtraPetShop`
 

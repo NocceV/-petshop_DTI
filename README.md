@@ -37,7 +37,7 @@ Lista de condições assumidas para o desenvolvimento do projeto:
 
 ## 🤖 Decisões de projeto
 
--Front-end:
+- **Front-end:**
 
 - Para o desenvolvimento front-end, foi decidido usar as tecnologias HTML e CSS, com responsividade.
     
@@ -48,19 +48,19 @@ Lista de condições assumidas para o desenvolvimento do projeto:
   ![Versão Final](./imagens-figma/versaoFinalFront.png)
 
 
--Back-end:
+- **Back-end**:
 
 - Para o desenvolvimento do back-end foi escolhido usar a linguagem JavaScript.
 - Inicialmente foram utilizadas as ferramentas: StarUML e NotePad++ para o desenho do projeto.
-- Logo após, primeiramente foi feito um código funcional, porém simples e como um protótipo.
+- Logo após, primeiramente foi feito um código funcional, porém simples como protótipo.
 - No final, o código foi refatorado, ficando  mais flexível e adaptado para futuras extenções usando conceitos de orientação à objetos.
 
-<img align="center" src="./imagens-figma/umlProjeto.png"alt="View do site"/>
 
-- **Modelo UML Inicial:**
   ![UML Inicial](./imagens-figma/umlProjeto.png)
+> Analise do problema usando UML.
 
 
+  ![UML Inicial](./imagens-figma/notePad.png)
 > Analise do problema usando notePad++.
 
 

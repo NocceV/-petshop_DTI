@@ -7,9 +7,10 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/NocceV/-petshop_DTI?style=for-the-badge)
 
 
-> Projeto feito para ajudar Eduardo a encontrar o melhor PetShop perto de seu canil.
-<img align="center" src="./imagens/Front-Site.png" alt="View do site"/>
 
+<img align="center" src=".//imagens-figma/Front-Site.png" alt="View do site"/>
+
+> Projeto feito para ajudar Eduardo a encontrar o melhor PetShop perto de seu canil.
 
 ## 💻 Instruções para executar o sistema
 
@@ -34,5 +35,65 @@ Lista de condições assumidas para o desenvolvimento do projeto:
 - **Dados:** Os três PetShops próximos do canil de Eduardo, cada um com uma distância e preços diferentes de acordo com o dia da semana.
 - **Cronograma:** 2 dias de planejamento e desenvolvimento.
 
+## 🤖 Decisões de projeto
 
+Front-end:
+
+- Para o desenvolvimento front-end, foi decidido usar as tecnologias HTML e CSS, com responsividade.
+    -Esboço do front-end no Figma:
+    <img align="center" src=".//imagens-figma/esboço-Figma.png"alt="View do site"/>
+
+    -Versão Final Do Projeto:
+    <img align="center" src="./imagens-figma/versaoFinalFront.png"alt="View do site"/>
+
+
+Back-end:
+
+- Para o desenvolvimento do back-end foi escolhido usar a linguagem JavaScript.
+- Inicialmente foram utilizadas as ferramentas: StarUML e NotePad++ para o desenho do projeto.
+
+<img align="center" src="./imagens-figma/umlProjeto.png"alt="View do site"/>
+
+> UML inicial do projeto.
+
+
+//Análise Do Problema
+
+//Cachorro(pequeno ou grande)
+
+/*PetShop
+-distancia do canil
+-custo cao pequeno
+-custo cao grande
+- custo por fim de semana
+
++calcular preco: double
++registro: string
++calcular menor distancia
+
+*/
+
+/* Registo de PetShops
+
+lista de petshops disponiveis para levar*/
+
+> Analise do problema usando notePad++.
+
+-Logo após primeiramente foi feito um código funcional, porém simples e como um protótipo.
+-No final o código foi refatorado, ficando  mais flexível e adaptado para futuras extenções usando conceitos de orientação à objetos.
+
+
+## 🧩 Tecnologias utilizadas
+
+ -Git
+ -GitHub
+ -HTML
+ -CSS
+ -JavaScript
+ -NotePad++
+ -StarUML
+ -Figma
+ -C#
+
+ ## 👾 Extra: 
 

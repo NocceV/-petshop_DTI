@@ -13,7 +13,9 @@ body{
     min-height: 100vh;  
 }
 
-
+p{
+    font-size:large;
+}
 
 /* Barra de Navegação */
 
@@ -102,6 +104,11 @@ header, .menu {
     background-color: rgb(86,182,203);
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.inputs button:hover{
+    color: white;
+    background-color: rgb(71, 169, 190) ;
 }
 
 /*Resultado da Busca*/

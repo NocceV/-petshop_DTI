@@ -88,7 +88,7 @@ document.getElementById('formulario').addEventListener('submit',function(event){
         const melhorDeTodos = acharMelhorShop(qtdCaoPequeno,qtdCaoGrande,petShops,diaSemanal);
         const precoTotal = calcularValorBanho(qtdCaoPequeno,qtdCaoGrande,melhorDeTodos,diaSemanal);
 
-        document.getElementById('escrita').textContent = melhorDeTodos.nome + " R$:"+ precoTotal; 
+        document.getElementById('escrita').textContent = melhorDeTodos.nome +" -"+ " R$ "+ precoTotal.toFixed(2); 
     }
     else{
         document.getElementById('escrita').textContent = "Parâmetros não aceitos. Por favor, tente de novo."; 

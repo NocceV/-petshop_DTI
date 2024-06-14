@@ -7,20 +7,32 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/NocceV/-petshop_DTI?style=for-the-badge)
 
 
-> Projeto feito para ajudar Eduardo a encontrar o melhor pet shop perto de seu canil.
+> Projeto feito para ajudar Eduardo a encontrar o melhor PetShop perto de seu canil.
 <img align="center" src="./imagens/Front-Site.png" alt="View do site"/>
 
 
+## 💻 Instruções para executar o sistema
 
-## 💻 Premissas assumidas
+A seguir, as instruções para executar o sistema:
+
+1. Clone o repositório. `git clone https://github.com/NocceV/-petshop_DTI.git`
+2. Abra o Visual Studio Code.
+3. No Visual Studio Code vá até: `"File" (Arquivo) > "Open Folder" (Abrir Pasta).`
+4. Navegue até o diretório onde o repositório foi clonado e selecione a pasta principal do projeto.
+5. No visual Studio Code, abra o arquivo `index.html'`
+6. Tenha uma extenção de Preview instalada no Visual Studio `Live Server por exemplo.`
+7. Com a extensão instalada, abra o arquivo utilizando a funcionalidade de pré-visualização do Live Server.
+
+
+## 📒 Premissas assumidas
 
 Lista de condições assumidas para o desenvolvimento do projeto:
 
--`Usuário: ` O usuário final seria Eduardo.
--`Objetivos do usuário: ` Encontrar o melhor PetShop para a quantidade de cães que o usuário quer dar banho.
--`Tecnologia de Acesso:  ` Navegador Web e/ou Dispositivo móvel.
--`Dados:  ` Os três PetShops próximos do canil de Eduardo, cada um com um distância e preçoes diferentes de acordo com o dia da semana.
--`Cronograma:  ` 2 dias de planejamento e desenvolvimento.
+- **Usuário:** O usuário final seria Eduardo.
+- **Objetivos do usuário:** Encontrar o melhor PetShop para a quantidade de cães que o usuário quer dar banho.
+- **Tecnologia de Acesso:** Navegador Web e/ou Dispositivo móvel.
+- **Dados:** Os três PetShops próximos do canil de Eduardo, cada um com uma distância e preços diferentes de acordo com o dia da semana.
+- **Cronograma:** 2 dias de planejamento e desenvolvimento.
 
 
 
